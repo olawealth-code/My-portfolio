@@ -329,7 +329,7 @@ width: 150px;
     .hero-div{
         background-image: url(leone-venter-VieM9BdZKFo-unsplash.jpg);
         background-repeat: no-repeat;
-        background-size: 350px 600px;
+        background-size: 100% 100%;
     }
     .container{
         overflow: hidden;
