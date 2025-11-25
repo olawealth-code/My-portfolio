@@ -326,6 +326,11 @@ width: 150px;
     .namebg, .namesm, .h-top{
         font-size: 30px;
     }
+    .hero-div{
+        background-image: url(leone-venter-VieM9BdZKFo-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: 350px 600px;
+    }
     .container{
         overflow: hidden;
     }
