@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+}
+.hero-div{
+    background-image: url(leone-venter-VieM9BdZKFo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-top: 50px;
+}
+.image-one{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.top-h{
+    margin: 50px 0;
+    font-weight: 400;
+    justify-self: center;
+    font-size: 30px;
+}
+.button-div{
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+}
+.h-top{
+    color:  hsl(242 100 25.1);
+}
+
+.topnav{
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    width: 100%;
+    background-color: hsl(242 100 25.1);
+}
+.topnav-mob{
+    display: none;
+}
+
+.topul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
+.top-link{
+    color: white;
+    text-decoration: none;
+}
+.top-link:hover{
+    color: brown;
+}
+.contlink{
+    color: black;
+}
+.contact{
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 10%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact:hover{
+    background-color: white;
+}
+
+.fname{
+     justify-self: center;
+    
+}
+.namebg{
+    color:  hsl(242 100 25.1);
+    font-size: 140px;
+    font-weight: 400;
+    text-align: end;
+}
+.namesm{
+    color:  hsl(242 100 25.1);
+    text-align: end;
+    font-size: 70px;
+    font-weight: 400;
+}
+.my-image{
+    margin: 5x  0px 0;
+    width: 350px;
+    height: 400px;
+}
+.about{
+    background-color: #f8f8f8;
+}
+.about-div{
+    display: flex;
+    margin: 20px;
+    font-size: 20px;
+}
+.ppp{
+    margin-top: 50px;
+}
+.aboutme{
+    justify-self: center;
+    height: 50px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 400;
+    
+}
+.p-div{
+    margin: 40px;
+}
+.hdev{
+    color:  hsl(242 100 25.1);
+    margin: 20px;
+}
+.devh{
+    margin: 20px;
+    font-size: 25px;
+    width: 30%;
+}
+.pabout{
+    width: 55%;
+    line-height: 25px;
+    font-size: 15px;
+    margin: 20px;
+}
+.about-flex{
+    display: flex;
+    justify-self: center;
+    margin: 30px;
+    gap: 30px;
+    transition: transform 0.3s ease;
+}
+.flexab{
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    line-height: 50px;
+    background-color:  hsl(242 100 25.1);
+}
+.p2{
+    color: white;
+    font-size: 15px;
+}
+.p1{
+    color: white;
+    font-size: 15px;
+}
+.lastab{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.lasta{
+    text-align: center;
+    font-size: 20px;
+    width: 25%;
+    line-height: 30px;
+}
+.skill{
+    margin: 70px;
+    border-radius: 10px;
+    justify-self: center;
+}
+.html, .css{
+    height: 350px;
+}
+.span1{
+    color: brown;
+}
+.css{
+    margin-left: -50px;
+}
+.html{
+    margin-left: -50px;
+}
+.skill-flex{
+    margin: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: brown;
+    display: flex;
+    align-items: center;
+}
+.skh{
+    justify-self: center;
+    height: 50px;
+    width: 40%;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  hsl(242 100 25.1);
+}
+.div-flex{
+    display: flex;
+}
+.pskill{
+    font-size: 20px;
+}
+.last-skill{
+    color:  hsl(242 100 25.1);
+    justify-self: center;
+}
+.img-pro{
+    height: 300px;
+    width: 100%;
+}
+.pro-div, .pro-div2{
+    display: flex;
+    justify-self: center;
+    gap: 50px;
+    margin: 50px;
+    text-align: center;
+}
+.div-pro{
+    border: 1px solid  hsl(242 100 25.1);
+    border-radius: 5px;
+    background-color:  white;
+    color:  hsl(242 100 25.1);
+}
+.project{
+    margin: 40px;
+    justify-self: center;
+    width: 20%;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid white;
+    color: white;
+}
+.p-pro{
+    margin: 40px;
+}
+.pro-p{
+    width: 80%;
+    justify-self: center;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.cont-pro{
+    background-color:  hsl(242 100 25.1);
+}
+.contact-div{
+    background-color: #f8f8f8;
+}
+.cont-divflex{
+    display: flex;
+    justify-self: center;
+    gap: 50px;
+}
+.epl{
+    width: 300px;
+    border-radius: 10px;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+.ctndiv{
+    justify-self: center;
+    margin: 30px;
+    width: 19%;
+    font-size: 35px;
+    text-align: center;
+}
+.ctn-p{
+    text-align: center;
+    font-size: 25px;
+}
+form{
+    justify-self: center;
+    margin: 50px 0;
+}
+input{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 30px;
+}
+textarea{
+    font-size: 25px;
+    padding: 40px;
+    height: 200px;
+    width: 600px;
+    border-radius: 10px;
+}
+.btn{
+    margin: 30px;
+    justify-self: center;
+}
+button{
+width: 150px;
+    height: 50px;
+    font-size: 15px;
+}
+.blue{
+    color: blueviolet;
+}
+.footer{
+    width: 100%;
+    background-color: #f8f8f8;
+    justify-self: center;
+    text-align: center;
+    padding: 30px;
+    line-height: 40px;
+}
+@media screen and (max-width:430px) {
+    .namebg, .namesm, .h-top{
+        font-size: 30px;
+    }
+    .container{
+        overflow: hidden;
+    }
+    .topnav{
+        display: none;
+    }
+    .topnav-mob{
+        display: block;
+    }
+    .link-nav{
+        display: none;
+    }
+    .topnav-mob:hover .link-nav{
+        display: block;
+    }
+    .ppp{
+        width: 100px;
+        font-size: 15px;
+        margin-top: 0;
+    }
+    .about-div{
+        font-size: 15px;
+        margin: 0;
+        flex-direction: column;
+    }
+    .pabout{
+        font-size: 13px;
+        width: 80%;
+    }
+    .p-div{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .devh{
+        font-size: 17px;
+        width: 70%;
+    }
+    .about-flex, .lastab, .skill-flex, .div-flex, .pro-div, .pro-div2, .cont-divflex{
+        flex-direction: column;
+    }
+    .lasta{
+        width: 100%;
+        font-size: 15px;
+    }
+    .html, .css{
+        height: 150px;
+    }
+    .pskill{
+        width: 250px;
+        font-size: 15px;
+    }
+    .skh{
+        height: 40px;
+        width: 200px;
+        font-size: 10px;
+    }
+    .p-pro, .pro-p, .epl{
+        margin: 0;
+        font-size: 15px;
+    }
+    .project{
+        width: 40%;
+    }
+    .img-pro{
+        width: 300px;
+    }
+    .ctndiv, .ctn-p, .top-link{
+        font-size: 15px;
+
+    }
+    input{
+        margin: 10px;
+     }
+     textarea{
+        margin: 10px;
+        width: 190px;
+     }
+     .topul{
+        gap: 10px;
+     }  
+}
+
+@media screen and (min-width:431px) and (max-width:770px) {
+    .container{
+        width: 1150px;
+    }
+    .topnav{
+        width: 100%;
+    }
+    .skill-flex{
+        flex-direction: column;
+    }
+    .pskill, .pabout{
+        font-size: 20px;
+}
+}
+
+
+@media screen and (min-width:771px) and (max-width:1025px) {
+    .container{
+        width: 1150px;
+    }
+    .html, .css{
+        height: 230px;
+    }
+}
